@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-image: url('img/background.png'); /*фон*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-image: url('img/header.png'); /*фон шапки*/
+    background-repeat: no-repeat;
+    width: 1900px;
+    height: 92px;
+}
+
+.flexPrs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.flexitm1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+
+}
+
+.flexPrs2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.flexitm3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+@font-face{
+    font-family: "Bellota" ;
+    src: url(fonts/Bellota-Light.ttf)
+} 
+
+h3{
+    font-family: "Bellota";
+    font-size: 18px;
+}
